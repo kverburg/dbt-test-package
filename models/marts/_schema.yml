@@ -1,0 +1,11 @@
+version: 2
+models:
+  - name: fct_orders
+    description: Package fact table containing the orders, build on the source you need to create yourself.
+    config:
+      enabled: "{{ var('package_test__orders_available', false) }}" 
+    columns:
+      - name: order_id
+      - name: customer_id
+      - name: order_date
+      - name: status
