@@ -1,4 +1,4 @@
-name: test_package_integation_test
+name: test_package_integration_test
 profile: dbt_fusion_test
 
 seed-paths: ["seeds"]
